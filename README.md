@@ -40,13 +40,13 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:nayaracorrea/moveit-next.git
+$ git clone git@github.com:nayaracorrea/facebook-clone.git
 
 # Acesse a pasta do projeto no seu terminal/cmd
-$ cd moveit-next
+$ cd facebook-clone
 
 # Vá para a pasta da aplicação Front End
-$ cd moveit-next
+$ cd facebook-clone
 
 # Execute a aplicação em modo de desenvolvimento
 $ npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
