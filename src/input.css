@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .input-facebook {
+    @apply border-gray-300 focus:outline-none focus:border-blue-facebook focus:shadow-sm focus:shadow-blue-facebook rounded-md border w-full h-14 mb-2.5 pl-3;
+  }
+
+  .list-language {
+    @apply mr-3 text-sm text-gray2-facebook cursor-pointer hover:underline;
+  }
+}
